@@ -1,0 +1,17 @@
+create table if not exists tentative_roll_controls_dates(
+tentative_roll_indiactor Integer not null,
+azure_story_creation_date varchar(255) null,
+work_item_number integer null,
+azure_story_completion_date varchar(255) null,
+sit_start_date varchar(255) null,
+sit_completion_date varchar(255) null,
+uat_start_date varchar(255) null,
+uat_completion_date varchar(255) null,
+staging_start_date varchar(255) null,
+staging_completion_date varchar(255) null,
+tentative_roll_date varchar(255) null,
+uvt_date varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint tentative_roll_controls_dates_pk primary key(tentative_roll_indiactor));
